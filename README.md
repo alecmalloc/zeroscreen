@@ -49,7 +49,7 @@ To kick things off, you'll need a Raspberry Pi Zero and a basic understanding of
     mkdir ~/.config/autostart/
     mv screen_autostart.desktop ~/.config/autostart/
     mv unclutter_autostart.desktop ~/.config/autostart/
-    ```
+  ```
     
 
 ### 7. Image Folder Setup
