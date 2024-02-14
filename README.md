@@ -45,10 +45,7 @@ To kick things off, you'll need a Raspberry Pi Zero and a basic understanding of
 -   **Modify `screen_autostart.desktop`**: Adjust the `Exec` path in `screen_autostart.desktop` to point to the `start_screen.sh` script. Feel free to move `start_screen.sh` to a desired location before proceeding.
 -   **Setup Autostart**: Move `screen_autostart.desktop` and `unclutter_autostart.desktop` to `~/.config/autostart/`.
     
-    bash
-    
-
--   ```
+  ```
     mkdir ~/.config/autostart/
     mv screen_autostart.desktop ~/.config/autostart/
     mv unclutter_autostart.desktop ~/.config/autostart/
