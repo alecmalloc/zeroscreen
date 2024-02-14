@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=Feh Slideshow
-Exec=/home/alec/start_feh.sh
+Exec=/home/alec/start_screen.sh
 X-GNOME-Autostart-enabled=true

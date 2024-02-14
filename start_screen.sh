@@ -1,16 +1,21 @@
 #!/bin/bash
 
 # Define the path to the Samba share mount point
-SHARE_PATH="/home/alec/Sync3"
+SHARE_PATH="/home/alec/Sync2"
 # Temporary files to store file lists for comparison
 PREV_FILE_LIST="/tmp/prev_file_list.txt"
 CURRENT_FILE_LIST="/tmp/current_file_list.txt"
 
+# Grab IP Adress
+IP_ADDRESS="192.168.101.89"
+
 # Generate an initial file list
 ls "$SHARE_PATH" > "$PREV_FILE_LIST"
 
-#start feh initial
+#start feh initial and load up filebrowser web app
+filebrowser --address $IP_ADDRESS -r Sync2/ &
 feh -F -D 5 --recursive "$SHARE_PATH" &
+
 
 while true; do
   # Generate a current file list
