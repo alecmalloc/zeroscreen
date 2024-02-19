@@ -21,7 +21,7 @@ To kick things off, you'll need a Raspberry Pi Zero and a basic understanding of
 
 ### 3. Configure the Display
 
--   **Disable Screen Blanking**: Use `raspi-config` `2: Display Options` to disable screen blanking, ensuring your display remains active.
+-   **Disable Screen Blanking**: Use `raspi-config` and select `2: Display Options` to find the screen blanking setting. Disable screen blanking, ensuring your display remains active during kiosk.
 
 ### 4. Install Necessary Software
 
