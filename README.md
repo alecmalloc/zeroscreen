@@ -1,7 +1,7 @@
 
 # Zero Screen: A Raspberry Pi Zero Kiosk Guide
 
-Welcome to Zero Screen, your go-to guide for setting up a lightweight, cost-effective kiosk using the Raspberry Pi Zero. This project is tailored for those who need to display full-screen images with the flexibility of hot-swapping these images without breaking the bank or compromising on live updates and other functionalities.
+Welcome to Zero Screen, your go-to guide for setting up a lightweight, cost-effective kiosk using the Raspberry Pi Zero. This project is tailored for those who need to display full-screen images while not breaking the bank and compromising on live updates and other functionalities.
 
 Finding a solution that supports the relatively low-end hardware of the Pi Zero, including challenges like the lack of Chromium support, can be daunting. Zero Screen emerges as a practical workaround, offering a step-by-step guide to creating a kiosk that not only meets these requirements but is also simple to update and maintain.
 
