@@ -7,6 +7,15 @@ Finding a solution that supports the relatively low-end hardware of the Pi Zero,
 
 This README serves as a personal log and a comprehensive guide for setting up your kiosk. Whether you're looking to replicate my setup or customize it to fit your needs, you'll find all the necessary steps and recommendations here. This guide will evolve over time as new improvements and methods are discovered.
 
+## Update (September 20, 2024)
+After lots of testing, I have found that using each Pi Zero independently as both a file server as well as a screen has minor performance constraints. Due to the Zero being such a lightweight computer, it struggles to keep the file server running consistently. Often, reboots are required to access the file server again.
+
+My current approach that works very well is using a Raspberry Pi 4 (or any other small PC/ File server) as the main file server, and having the Raspberry Pi Zeros act as nodes that copy over data using rsync. 
+
+While this does mean the purchase of an additional device, any old laptop or PC would do the trick. It immensly speeds up the system. Also it means you can scale using Zeros as nodes which is still cheap.
+
+I will be updating the guide in due course to reflect this new approach, however much of the scripts and resources on this page still apply and are helpful to getting it up and running.
+
 ## Getting Started
 
 To kick things off, you'll need a Raspberry Pi Zero and a basic understanding of working with Raspberry Pi OS. Follow these steps to transform your Pi Zero into a fully functional kiosk:
